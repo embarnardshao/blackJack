@@ -1,4 +1,19 @@
-<div id="wrapper">
+ <!--Links-->
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Vampiro+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+<!--END Links-->
+<div class="navigation">
+  <nav class="navbar fixed-top navbar-light bg-faded">
+    <h1 class="navbar-brand"><em>Black Jack</em><h1>
+    <a class="navbar-brand" href="#">Play</a>
+    <a class="navbar-brand" href="http://www.bicyclecards.com/how-to-play/blackjack/" target ="_blank">Rules</a>
+    <a class="navbar-brand nav-float-right" href="">Login</a>
+    <a class="navbar-brand nav-float-right" href="">Sign-Up</a>
+   </nav>
+</div>
+    
+<div id="table">
+   <div id="wrapper">
   <div id="game">
     <div id="alert" class="alert alert-error hide"><span></span></div>
     <div id="dealer">
@@ -12,7 +27,12 @@
       <div id="bank">Winnings: $<span></span></div>
     </div>
   </div>
-  <div id="actions">
+</div>
+<!--Buttons-->
+<div class="gameButtons"></div>
+<div class="casinoChips"></div>
+<div class="gameFace"></div>
+<div id="actions">
     <button id="deal" class="btn">Deal!</button>
     <button id="hit" class="btn" disabled>Hit</button>
     <button id="stand" class="btn" disabled>Stand</button>
@@ -20,7 +40,7 @@
     <button id="split" class="btn" disabled>Split</button>
     <button id="insurance" class="btn" disabled>Insurance</button>
     <strong>Wager:</strong> $<input id="wager" class="input-small" type="text" />
-  </div>
+</div>
 </div>
 <div id="myModal" class="modal hide fade">
   <div class="modal-header">
@@ -35,3 +55,8 @@
     <a href="#" id="newGame" class="btn btn-primary">Yes!</a>
   </div>
 </div>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
