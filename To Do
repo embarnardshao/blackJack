@@ -6,3 +6,46 @@
 2. Change Scenarios
 
 3. Google login API and Databases
+
+
+**************REQUIREMENTS************** 
+Final project teams should be comprised of 2 to 4 students. Some 5 student teams may be allowed by special permission, but the scope of the project will be expected to be that much larger.
+
+The final project should be a web-based application that reflects the techniques we've learned in class. In particular, the architecture of the project should reflect all of the components of a modern AJAX-based application including:
+ 
+
+	* A dynamic JavaScript-based front end interface (or set of interfaces)
+	* AJAX-based communication with a RESTful server-side API
+	* The use of a relational database to store back-end application state.
+	* The use of an ORM layer to access data in the database.
+
+ 
+The use of third-party APIs and/or technologies other than jQuery, PHP, and mySQL as provided in our course webspace is allowed. You don't have to host your final project on the course web server and/or use the department's MySQL server, but you are free to do so. I will be setting up MySQL accounts for each of you soon.
+ 
+Final projects will be presented orally during the finals period between Dec. 7th and Dec. 13th. Details about scheduling will be forthcoming. Each team will get 5 minutes per person for their presentations. Every team member will be expected to have a speaking role.
+
+Teams will also be expected to create written documentation describing the project, it's architecture, database schema, and other aspects of the project's design. Guidelines on written documentation will be forthcoming.
+ 
+Graded Project Milestones
+ 
+The following project milestones will contribute to the course assignment grade.
+ 
+November 8th: User Interface Mock-Ups (5 Points)
+ 
+These do not have to be functional in any way and can be one or more static HTML pages with CSS. They can even be screenshots of work in progress. The point of this is to force you to think about how your final project will look like and provide an aspirational sense of what the final project will do. This is mostly to keep you from procrastinating and will be graded primarily for completion. 
+
+Create a directory called "final_project_milestones" in one team member's course webspace. Create a file called index.html in that directory. This web page should have the following information on it:
+ 
+
+	* Names and onyens of team members.
+	* A team name (if you want to name your team)
+	* A title for your final project
+	* A description of your final project. It would be nice if you could expand on the description you provide to the form above but that will do in a pinch.
+	* Links to the various interface mock-ups with a short description of the functionality and role each interface is expected to play in the overall project.
+
+
+
+November 20th 30th: Database Design and Server-Side API (10 Points)
+ 
+In the same "final_project_milestones" directory as above, create an HTML page that documents your final project's database schema and server-side API. More information about this will be given when we cover these topics in class.
+
