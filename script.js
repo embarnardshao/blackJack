@@ -1,6 +1,3 @@
-/*global $, confirm, Game, Player, renderCard, Card, setActions, 
-resetBoard, showBoard, showAlert, getWinner, jQuery, wager */
-
 (function () {
 
 /*****************************************************************/
