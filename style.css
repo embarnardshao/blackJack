@@ -1,3 +1,67 @@
+/*GENERAL*/
+body{
+  background-color: #77EEDF;
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Vampiro One', cursive;
+}
+
+/*NAVIGATION BAR*/
+.navigation{
+  background-color: white;
+  height: 55px;
+  opacity: .6;
+  width: 100%;
+}
+
+.navigation:hover{
+  opacity: .8;
+}
+
+.navigation nav h1{
+  font-size: 30px;
+  color: black;
+  padding-top: 0px;
+}
+
+.navigation nav a{
+  color: black;
+  padding-top: 0px;
+}
+
+.navigation nav a:hover{
+  color: #003d25;
+}
+
+.nav-float-right{
+  float: right;
+}
+
+/*POKER TABLE*/
+#table{
+  /*background-color: #003d25;*/
+  background: #b4ddb4; /* Old browsers */
+  background: -moz-linear-gradient(top,  #b4ddb4 0%, #83c783 0%, #83c783 0%, #52b152 0%, #008a00 0%, #005700 44%, #002400 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #b4ddb4 0%,#83c783 0%,#83c783 0%,#52b152 0%,#008a00 0%,#005700 44%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #b4ddb4 0%,#83c783 0%,#83c783 0%,#52b152 0%,#008a00 0%,#005700 44%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+
+  /*dimensions*/
+  width: 700px;
+  height: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  /*border*/
+  border: 20px solid #713826;
+  border-radius: 25px;
+}
+/*BACKDROP END*/
+
 div[id*="pcard"] .popover { left: -95px !important; }
 div[id*="dcard"] .popover { left: -105px !important; }
 
@@ -10,40 +74,35 @@ h3 {
 	margin: 5px 0;
 	text-align: center;
 }
-
+/*GAME BUTTONS*/
 #game {
-	background: transparent url('http://clowerweb.com/games/blackjack/table.png') 0 0 no-repeat;
 	border-radius: 5px;
-	color: #333;
-	font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
-	height: 550px;
+	color: black;
+	font-size: 14px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;;
+	height: 450px;
 	margin: 0 auto;
 	position: relative;
 	width: 1000px;
 }
 
-div#dscore {
+div #dscore {
 	position: absolute;
 	bottom: 30px;
 }
 
-div#pscore {
+div #pscore {
 	position: absolute;
 	bottom: 15px;
 }
 
-div#phand, div#dhand {
+div #phand, div #dhand {
 	font-weight: 700;
-	/*left: 50%;*/
 	position: absolute;
-	top: -122px;
+	top: -125px;
 	white-space: nowrap;
-	width: 1000px;
+	width: 900px;
 }
-
-div#phand { }
-
-div#dhand { }
 
 div[class*="card"] {
 	background: #FFF;
@@ -59,7 +118,7 @@ div[class*="card"] {
 }
 
 .down {
-	background: #B20000 url('http://clowerweb.com/games/blackjack/card.png') center center no-repeat !important;
+	background: #2f5f59 center center no-repeat !important;
 }
 
 span.pos-0 {
@@ -87,11 +146,11 @@ span.suit {
 }
 
 .black {
-	color: #000;
+	color: black;
 }
 
 .red {
-	color: #F00;
+	color: red;
 }
 
 #result {
@@ -101,38 +160,36 @@ span.suit {
 
 #actions {
 	margin: 15px 0 0 0;
-    text-align: center;
+  ext-align: center;
 }
 
-input#wager { margin-left: 5px; position: relative; top: 4px }
+input #wager { margin-left: 5px; position: relative; top: 4px }
 
 #money, #money:before {
 	border-radius: 5px;
-	bottom: 0;
-	height: 55px;
+	bottom: 3;
+	height: 75px;
 	padding: 7px;
 	position: absolute;
-	right: 0;
-	width: 250px;
+  right: 825px;
+	width: 170px;
 }
 
 #money {
-	border: 2px solid #FFC926;
+	border: 3px solid 
+#2f5f59;
 }
 
 #money:before {
-	background: #333;
 	content: '';
 	opacity: 0.8;
 }
 
 	#cash, #bank {
 		color: #FFF;
-		font: 700 18px/20px Helvetica, Arial, Verdana, sans-serif;
-		margin: 12px 0;
+		font-size: 14px;
+		margin: 15px;
 		position: relative;
-		text-shadow: 1px 1px #000;
-		z-index: 1;
 	}
 
 #alert {
