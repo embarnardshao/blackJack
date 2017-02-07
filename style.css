@@ -1,3 +1,26 @@
+.login{
+	/*login section*/
+	font-size: 20px;
+	color: #003d25;
+}
+
+#profilePic{
+	
+}
+
+#greet{
+
+}
+
+#loggedIn{
+
+}
+
+#logout{
+	
+}
+
+
 /*GENERAL*/
 body{
   background-color: #77EEDF;
