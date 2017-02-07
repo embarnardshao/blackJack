@@ -238,8 +238,8 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  height: 115px;
-  width: 115px;
+  height: 100px;
+  width: 100px;
   border: none;
 }
 #hit{
@@ -247,8 +247,8 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  height: 115px;
-  width: 115px;
+  height: 100px;
+  width: 100px;
   border: none;
 }
 #stand{
@@ -256,8 +256,8 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  height: 115px;
-  width: 115px;
+  height: 100px;
+  width: 100px;
   border: none;
 }
 #double{
@@ -265,8 +265,8 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  height: 115px;
-  width: 115px;
+  height: 100px;
+  width: 100px;
   border: none;
 }
 #insurance{
@@ -274,7 +274,7 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  height: 115px;
-  width: 115px;
+  height: 100px;
+  width: 100px;
   border: none;
 }
