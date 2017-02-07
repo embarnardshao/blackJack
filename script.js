@@ -263,6 +263,7 @@
 				player.setWager(-wager);
 				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 				showAlert('Wager cannot exceed available cash!');
+				window.alert("Wager cannot exceed available cash!");
 			}
 		};
 	}
@@ -328,6 +329,7 @@
 		} else {
 			$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 			showAlert('You don\'t have enough cash to double down!');
+			window.alert("You don\'t have enough cash to double down!");
 		}
 	};
 
@@ -351,6 +353,7 @@
 			this.setWager(-wager);
 			$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 			showAlert('You don\'t have enough for insurance!');
+			window.alert("You don\'t have enough for insurance!");
 		}
 	};
 
@@ -590,6 +593,7 @@
 				player.setBank(winnings - wager);
 //				$('#alert').removeClass('alert-info alert-error').addClass('alert-success');
 				result = 'Blackjack!';
+				window.alert("Blackjack!");
 			} else if(pscore <= 21) {
 				winnings = wager * 2;
 				player.setCash(winnings);
@@ -597,11 +601,13 @@
                 document.getElementById('alert').style.display='block'
 //				$('#alert').removeClass('alert-info alert-                                error').addClass('alert-success');
 				result = 'You win!';
+				window.alert("You win!");
 			} else if(pscore > 21) {
 				winnings -= wager;
 				player.setBank(winnings);
 //				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 				result = 'Bust';
+				window.alert("Bust");
 			}
 		} else if(pscore < dscore) {
 			if(pscore <= 21 && dscore > 21) {
@@ -610,11 +616,13 @@
 				player.setBank(winnings - wager);
 //				$('#alert').removeClass('alert-info alert-error').addClass('alert-success');
 				result = 'You win - dealer bust!';
+				window.alert("You win - dealer bust!");
 			} else if(dscore <= 21) {
 				winnings -= wager;
 				player.setBank(winnings);
 //				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 				result = 'You lose!';
+				window.alert("You lose!");
 			}
 		} else if(pscore === dscore) {
 			if(pscore <= 21) {
@@ -623,6 +631,7 @@
 					player.setBank(winnings);
 //					$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 					result = 'You lose - dealer Blackjack!';
+					window.alert("You lose - dealer Blackjack!");
 				} else {
 					winnings = wager;
 //					$('#alert').removeClass('alert-error alert-success').addClass('alert-info');
@@ -667,6 +676,7 @@
 			} else {
 				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 				showAlert('The minimum bet is $1.');
+				window.alert("The minimum bet is $1.");
 			}
 		} else {
 			$('#myModal').modal();
