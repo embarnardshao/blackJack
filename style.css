@@ -89,8 +89,6 @@ div[id*="pcard"] .popover { left: -95px !important; }
 div[id*="dcard"] .popover { left: -105px !important; }
 
 #wrapper {
-	margin: 0 auto;
-	width: 1000px;
 }
 
 h3 {
@@ -103,10 +101,9 @@ h3 {
 	color: black;
 	font-size: 14px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;;
-	height: 450px;
+	height: 410px;
 	margin: 0 auto;
 	position: relative;
-	width: 1000px;
 }
 
 div #dscore {
@@ -182,19 +179,21 @@ span.suit {
 }
 
 #actions {
+    position: absolute;
+    bottom: 20px;
 	margin: 15px 0 0 0;
-  ext-align: center;
+    text-align: center;
 }
 
 input #wager { margin-left: 5px; position: relative; top: 4px }
 
 #money, #money:before {
 	border-radius: 5px;
+    margin: 10px 10px;
 	bottom: 3;
 	height: 75px;
 	padding: 7px;
 	position: absolute;
-  right: 825px;
 	width: 170px;
 }
 
@@ -218,9 +217,11 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
 #alert {
 	margin: 0 auto;
 	opacity: 0.95;
-	position: relative;
+	position: absolute;
 	text-align: center;
-	top: 34.5%;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 	width: 500px;
-	z-index: 0;
+	z-index: 1000;
 }
