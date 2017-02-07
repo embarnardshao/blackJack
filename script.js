@@ -588,18 +588,19 @@
 				winnings = (wager * 2) + (wager / 2);
 				player.setCash(winnings);
 				player.setBank(winnings - wager);
-				$('#alert').removeClass('alert-info alert-error').addClass('alert-success');
+//				$('#alert').removeClass('alert-info alert-error').addClass('alert-success');
 				result = 'Blackjack!';
 			} else if(pscore <= 21) {
 				winnings = wager * 2;
 				player.setCash(winnings);
 				player.setBank(winnings - wager);
-				$('#alert').removeClass('alert-info alert-error').addClass('alert-success');
+                document.getElementById('alert').style.display='block'
+//				$('#alert').removeClass('alert-info alert-                                error').addClass('alert-success');
 				result = 'You win!';
 			} else if(pscore > 21) {
 				winnings -= wager;
 				player.setBank(winnings);
-				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
+//				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 				result = 'Bust';
 			}
 		} else if(pscore < dscore) {
@@ -607,12 +608,12 @@
 				winnings = wager * 2;
 				player.setCash(winnings);
 				player.setBank(winnings - wager);
-				$('#alert').removeClass('alert-info alert-error').addClass('alert-success');
+//				$('#alert').removeClass('alert-info alert-error').addClass('alert-success');
 				result = 'You win - dealer bust!';
 			} else if(dscore <= 21) {
 				winnings -= wager;
 				player.setBank(winnings);
-				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
+//				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 				result = 'You lose!';
 			}
 		} else if(pscore === dscore) {
@@ -620,18 +621,18 @@
 				if(dscore === 21 && dhand.length < 3 && phand.length > 2) {
 					winnings -= wager;
 					player.setBank(winnings);
-					$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
+//					$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 					result = 'You lose - dealer Blackjack!';
 				} else {
 					winnings = wager;
-					$('#alert').removeClass('alert-error alert-success').addClass('alert-info');
+//					$('#alert').removeClass('alert-error alert-success').addClass('alert-info');
 					player.setCash(winnings);
 					result = 'Push';
 				}
 			} else {
 				winnings -= wager;
 				player.setBank(winnings);
-				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
+//				$('#alert').removeClass('alert-info alert-success').addClass('alert-error');
 				result = 'Bust';
 			}
 		}
