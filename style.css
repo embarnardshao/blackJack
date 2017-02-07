@@ -225,3 +225,11 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
 	width: 500px;
 	z-index: 1000;
 }
+
+#myModal {
+    height: 190px;
+}
+
+.modal {
+    color: black!important;
+}
