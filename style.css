@@ -233,3 +233,48 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
 .modal {
     color: black!important;
 }
+#deal{
+  background-image: url(http://i.imgur.com/DKcgG1j.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 115px;
+  width: 115px;
+  border: none;
+}
+#hit{
+  background-image: url(http://i.imgur.com/DKcgG1j.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 115px;
+  width: 115px;
+  border: none;
+}
+#stand{
+  background-image: url(http://i.imgur.com/DKcgG1j.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 115px;
+  width: 115px;
+  border: none;
+}
+#double{
+  background-image: url(http://i.imgur.com/DKcgG1j.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 115px;
+  width: 115px;
+  border: none;
+}
+#insurance{
+  background-image: url(http://i.imgur.com/DKcgG1j.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 115px;
+  width: 115px;
+  border: none;
+}
