@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <HTML>
     <header>
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -71,3 +72,62 @@
     
 </HTML>
 
+=======
+<!--Links-->
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Vampiro+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+<!--END Links-->
+<div class="navigation">
+  <nav class="navbar fixed-top navbar-light bg-faded">
+    <h1 class="navbar-brand"><em>Black Jack</em><h1>
+    <a class="navbar-brand" href="#">Play</a>
+    <a class="navbar-brand" href="http://www.bicyclecards.com/how-to-play/blackjack/" target ="_blank">Rules</a>
+    <a class="navbar-brand nav-float-right" href="">Login</a>
+    <a class="navbar-brand nav-float-right" href="">Sign-Up</a>
+</nav>
+</div>
+    
+<div id="table">
+   <div id="wrapper">
+  <div id="game">
+    <div id="alert" class="alert alert-error hide"><span></span></div>
+    <div id="dealer">
+      <div id="dhand"></div>
+    </div>
+    <div id="player">
+      <div id="phand"></div>
+    </div>
+    <div id="money">
+      <span id="cash">Cash: $<span></span></span>
+      <div id="bank">Winnings: $<span></span></div>
+    </div>
+  </div>
+</div>
+<!--Buttons-->
+<div class="gameButtons"></div>
+<div class="casinoChips"></div>
+<div class="gameFace"></div>
+<div id="actions">
+    <button id="deal" class="btn">Deal!</button>
+    <button id="hit" class="btn" disabled>Hit</button>
+    <button id="stand" class="btn" disabled>Stand</button>
+    <button id="double" class="btn" disabled>Double Down</button>
+    <!-- <button id="split" class="btn" disabled>Split</button> -->
+    <button id="insurance" class="btn" disabled>Insurance</button>
+    <strong>Wager:</strong> $<input id="wager" class="input-small" type="text" />
+</div>
+</div>
+<div id="myModal" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Out of cash!</h3>
+  </div>
+  <div class="modal-body">
+    <p>You ran out of cash, but you spot an ATM nearby. Would you like to withdraw another $1,000 and try your luck again?</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" id="cancel" class="btn">Nah</a>
+    <a href="#" id="newGame" class="btn btn-primary">Yes!</a>
+  </div>
+</div>
+>>>>>>> d2dfe2aec0fb5f13aea9f8de559e394796f4dec7
