@@ -237,44 +237,49 @@ input #wager { margin-left: 5px; position: relative; top: 4px }
   background-image: url(http://i.imgur.com/DKcgG1j.png);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 40% 50%;
   height: 100px;
   width: 100px;
   border: none;
+  border-radius: 50%;
 }
 #hit{
   background-image: url(http://i.imgur.com/DKcgG1j.png);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 40% 50%;
   height: 100px;
   width: 100px;
   border: none;
+  border-radius: 50%;
 }
 #stand{
   background-image: url(http://i.imgur.com/DKcgG1j.png);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 40% 50%;
   height: 100px;
   width: 100px;
   border: none;
+  border-radius: 50%;
 }
 #double{
   background-image: url(http://i.imgur.com/DKcgG1j.png);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 40% 50%;
   height: 100px;
   width: 100px;
   border: none;
+  border-radius: 50%;
 }
 #insurance{
   background-image: url(http://i.imgur.com/DKcgG1j.png);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 40% 50%;
   height: 100px;
   width: 100px;
   border: none;
+  border-radius: 50%;
 }
