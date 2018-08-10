@@ -1,2 +1,2 @@
 # blackJack
-COMP 426 Black Jack
+[Black Jack website live](http://blackjack.embarnardshao.com/)
